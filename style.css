@@ -1,10 +1,12 @@
 * {
-    
+    background-color: antiquewhite;
 }
 header {
     background-color: blueviolet;
+    content: 100%;
 }
 h1 {
+    background-color: blueviolet;
     content: center;
 }
 img {
