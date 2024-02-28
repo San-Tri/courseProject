@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>celectores</title>
+</head>
+<body>
+    <a href="../index.html">Inicio</a>
+    <hr>
+    <h1>Selectores</h1>
+    <p>existen tres tipos de selectores</p>
+
+    <h2>Selector universal</h2>
+        <img src="../img/selectorUniversal.png" alt="">
+    <p>
+        El selector universal <b>*</b>, da diseño a toda la página de forma general, no es muy recomendable por que 
+        si luego quieres darle un diseño diferente a un elemento tendras problemas. (Usar con precausion)
+    </p>
+
+    <h2>Selector por elemento</h2>
+        <img src="../img/selectorElemento.png" alt="">
+    <p>
+        Se le llama por elemento por por que el diseño se le aplicara a todo los elementos de la etiqueta, tambien 
+        resiviran el diseño las otras etiquetas que tengan el mismo selector, en este caso es el 
+        <code>&lt;h1&gt;</code>. <br>
+    </p>
+    <p>Tambien se puede agregar mas de un elemento y el diseño se aplicara a todos ellos.</p>
+        <img src="../img/selectorElemento+.png" alt="">
+    <p>
+        Cada elemeto es separado por un <b>,</b> en este ejemplo el diseño se aplicara a las etiquetas 
+        <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code> y <code>&lt;p&gt;</code>.
+    </p>
+
+    <h2>Selector por identificador</h2>
+        <img src="../img/selectorId.png" alt="">
+    <p>
+        El selector en este caso es el <b>id</b> que se selecciona con un ( <b>#</b> ), como recordaran el id es unico y 
+        no puede repetirse, y de esta manera el diseño solo se aplicara a la etiqueta que contenga ese id. 
+    </p>
+
+    <h2>Selector por clase</h2>
+        <img src="../img/selectorClass.png" alt="">
+    <p>
+        Este selector es seleccionado con un <b>.</b> y es el contrario al selector por identificador, por que se 
+        puede seleccionar a todas etiquetas que tengan la misma clase y a todas ellas se le aplicara el diseño.
+    </p>
+
+    <h2>Combinacion de selectores</h2>
+        <img src="../img/selectorCombinado.png" alt="">
+        <p>
+            En es caso el diseño se le aplicara a la etiqueta h2 que tenga como clase (class) y si hay mas etiquetas 
+            h2 que tenga esta misma clase tanbien se les aplicara, esto e para que otras etiquetas diferentes que tegan
+            la misma clase no se vea afectada.
+        </p>
+        <img src="../img/selectorCombinado2.png" alt="">
+        <p>
+            Y aqui el unico que resiveria los cambios es la etiqueta que tenga esas dos clases, por que hay etiquetas
+            que tienen dos clase y en alguna de ellas una clase puede repetirse en otras etiquetas y para evitar eso es 
+        </p>
+    <hr>
+    <a href="integracionCss.html">Regresar</a>
+    <a href="asfawefs">Siguiente</a>
+</body>
+</html>

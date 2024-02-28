@@ -1,13 +1,16 @@
 * {
-    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: blueviolet;
-    content: 100%;
+    padding: 10px;
 }
 h1 {
-    background-color: blueviolet;
     content: center;
+}
+nav {
+    align-self: end;
 }
 img {
     width: 250px;
